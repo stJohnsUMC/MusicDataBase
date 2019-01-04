@@ -1,0 +1,17 @@
+body {
+	background-color: grey;
+	height
+}
+.holder{
+	background-color: white;
+	width: 80%;
+	min-width: 500px;
+	height: 80vh;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 5px;
+}
+.header{
+	width: inherit;
+	height: 100px;
+}
