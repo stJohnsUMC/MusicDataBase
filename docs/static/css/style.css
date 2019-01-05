@@ -5,12 +5,18 @@ body {
 .holder{
 	background-color: white;
 	width: 80%;
-	min-width: 500px;
-	height: 80vh;
+	min-width: 800px;
+	min-height: 80vh;
 	margin: auto;
 	margin-top: 50px;
 	border-radius: 5px;
 }
+@media screen and (max-width: 800px) {
+  .holder {
+    width: 100%;
+	margin-top:0px;
+	
+  }
 .header{
 	width: inherit;
 	height: 100px;
