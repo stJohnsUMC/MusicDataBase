@@ -22,11 +22,24 @@ body {
 	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
 }
 .newSong{
+	width:60%;
 	background-color:white;
-	
+	height:500px;
+	margin: auto;
+	display:inherit;
+	margin-top:50vh-400px;
+	padding:2em;
+	text-align:center;
 }
+.inputs{
+	text-align:right;
+}
+
 @media screen and (max-width: 800px) {
 	*{
 		margin:0;
 		padding:0;
+	}
+	.newSong{
+		width:100%;
 	}
