@@ -1,8 +1,7 @@
 $(document).ready(function(){
 	
 	$(".test").click(function(){
-		let info ={"songs": library.songs};
-		let myJson = JSON.stringify(info);
+		let myJson = JSON.stringify(library);
 		$.ajax({
 			url:"https://api.myjson.com/bins/85pfe",
 			type:"PUT",
