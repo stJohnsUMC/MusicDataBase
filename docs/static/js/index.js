@@ -1,7 +1,11 @@
 $(document).ready(function(){
 	
 	$(".show").click(function(){
-		$("#overlay").css("display","block")
+		$("#overlay").css("display","flex")
+	})
+	
+	$(".close").click(function(){
+		$("#overlay").css("display","none")
 	})
 	
 	$(".add").click(function(){
